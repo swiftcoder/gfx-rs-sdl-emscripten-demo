@@ -1,0 +1,14 @@
+[package]
+name = "gfx-rs-sdl-emscripten-demo"
+version = "0.1.0"
+authors = ["Tristam MacDonald <swiftcoder@gmail.com>"]
+
+[dependencies]
+sdl2 = "0.30"
+gfx = { git = "https://github.com/gfx-rs/gfx.git" }
+gfx_window_sdl = { git = "https://github.com/gfx-rs/gfx.git" }
+gfx_core = { git = "https://github.com/gfx-rs/gfx.git" }
+
+[profile.dev]
+opt-level = 2
+

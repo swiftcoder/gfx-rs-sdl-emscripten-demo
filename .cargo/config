@@ -1,0 +1,4 @@
+
+[target.'cfg(target_os = "emscripten")']
+rustflags = ["-Clink-arg=-Os"]
+
